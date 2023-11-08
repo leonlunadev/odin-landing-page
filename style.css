@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #1f2937;
+  height: 72px;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background: #1f2937;
+  height: 72px;
+}
+
+.intro {
+  height: 200px;
+  background: #1f2937;
+}
+
+.info {
+  height: 200px;
+}
+
+.quote {
+  background: #e5e7eb;
+  height: 200px;
+}
+
+.signup {
+  height: 200px;
+}
