@@ -53,6 +53,7 @@ a {
   display: flex;
   padding: 0 350px;
   align-items: center;
+  gap: 40px;
 }
 
 .intro button {
@@ -75,11 +76,13 @@ a {
 }
 
 .title {
+  padding-bottom: 10px;
   color: #f9faf8;
   font-weight: extra-bold;
   font-size: 45px;
 }
 .description .text {
+  padding-bottom: 10px;
   color: #e5e7eb;
 }
 
@@ -149,22 +152,37 @@ a {
 }
 .block {
   background-color: #3882f6;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 0 350px;
   padding: 50px 100px;
   display: flex;
+  gap: 100px;
 }
 
 .heading {
-  color: white;
+  color: #f9faf8;
   font-weight: bold;
+  font-size: 24px;
+}
+
+.block button {
+  padding: 0px 30px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  border-color: white;
+  color: white;
+  font-size: 12px;
+}
+
+.action .text {
+  color: #e5e7eb;
 }
 
 /* FOOTER */
 
 .footer {
   display: flex;
-  color: white;
+  color: #f9faf8;
   background: #1f2937;
   height: 72px;
   justify-content: center;
