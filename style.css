@@ -1,38 +1,172 @@
 body {
   margin: 0;
-  height: 100vh;
+  height: 200vh;
   display: flex;
   flex-direction: column;
 }
 
-.header {
-  background: #1f2937;
-  height: 72px;
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
 }
 
-.content {
+/* HEADER */
+
+.header {
+  padding: 0px 350px;
+  display: flex;
+  align-items: center;
+  background: #1f2937;
+  height: 72px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 16px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-direction: column;
   flex: 1;
 }
 
-.footer {
-  background: #1f2937;
-  height: 72px;
-}
+/* INTRO */
 
 .intro {
   height: 200px;
   background: #1f2937;
+  flex: 1;
+  display: flex;
+  padding: 0 350px;
+  align-items: center;
 }
+
+.intro button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 8px 32px;
+}
+
+.placeholder {
+  background: grey;
+  padding: 100px 150px;
+}
+
+.description {
+  padding: 0px 16px;
+}
+
+.title {
+  color: #f9faf8;
+  font-weight: extra-bold;
+  font-size: 45px;
+}
+.description .text {
+  color: #e5e7eb;
+}
+
+.intro img {
+  width: 40%;
+  height: 40%;
+  padding: 0 16px;
+}
+
+/* INFO */
 
 .info {
   height: 200px;
+  flex: 1;
+  text-align: center;
 }
+
+.group {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.content {
+  max-width: 200px;
+}
+
+.square {
+  border: solid 2px royalblue;
+  padding: 100px;
+  border-radius: 10px;
+}
+
+/* QUOTE */
 
 .quote {
   background: #e5e7eb;
   height: 200px;
+  flex: 1;
+  padding: 0 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0 16px;
+}
+
+.signature {
+  font-weight: bold;
+  align-self: flex-end;
+  padding: 0 64px;
+}
+
+/* SIGN UP  */
 
 .signup {
   height: 200px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin: 0 350px;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.heading {
+  color: white;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  color: white;
+  background: #1f2937;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
 }
